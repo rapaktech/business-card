@@ -18,6 +18,7 @@ function App() {
         <a href='linktr.ee/jimezesinachi' target='_blank' className='main--bio-link'>
             linktr.ee/jimezesinachi
         </a>
+        <a href='mailto:ezesinachijim@gmail.com' target='_blank' className='main--contact-email-link' rel="noreferrer">
         <div className='main--contact-email'>
           <div className='main--contact-email-icon-container'>
               <img src={emailIcon} alt='Email Icon' className='main--contact-email-icon'/>
@@ -26,6 +27,8 @@ function App() {
               Email
           </div>
         </div>
+        </a>
+        <a href='https://www.linkedin.com/in/jimezesinachi/' target='_blank' className='main--contact-linkedin-link' rel="noreferrer">
         <div className='main--contact-linkedin'>
           <div className='main--contact-linkedin-icon-container'>
               <img src={linkedInIcon} alt='LinkedIn Icon' className='main--contact-linkedin-icon'/>
@@ -34,6 +37,7 @@ function App() {
               LinkedIn
           </div>
         </div>
+        </a>
         <div className='main--info'>
           <h3 className='main--info-about-header'>About</h3>
           <p className='main--info-about-text'>Hi there! I'm Jim. 
