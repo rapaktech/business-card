@@ -1,6 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
 .App {
   position: absolute;
   width: 550px;
   height: 868px;
   background: #23252C;
+}
+
+.image-container {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+}
+
+.image-container--image {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: url(./card-image.jpg);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.main--bio {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #F5F5F5;
+}
+
+.main--bio-name {
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 70px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #2B283A;
+}
+
+.main--bio-title {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 70px;
+  top: 52px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F47D27;
+}
+
+.main--bio-link {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 45px;
+  top: 75px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+
+  color: #4A4E74;
+}
+
+.main--contact-email {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 35px;
+    top: 108px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.main--contact-email-icon-container {
+    width: 16px;
+    height: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main--contact-email-icon {
+    position: absolute;
+    left: 25%;
+    right: 10%;
+    top: 30%;
+    bottom: 20%;
+
+    background: #1E1F26;
+}
+
+.main--contact-email-text {
+    width: 36px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #374151;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main--contact-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 167px;
+    top: 108px;
+
+    background: #297FE5;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.main--contact-linkedin-icon-container {
+    width: 16px;
+    height: 16px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main--contact-linkedin-icon {
+    position: absolute;
+    left: 15%;
+    right: 8.33%;
+    top: 25%;
+    bottom: 8.33%;
+
+    background: #FFFFFF;
+}
+
+.main--contact-linkedin-text {
+    width: 57px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main--info {
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    left: 10px;
+    top: 167px;
+}
+
+.main--info-about-header {
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #2B283A;
+}
+
+.main--info-about-text {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 20px;
+    top: 25px;
+    text-align: justify;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #4A4E74;
+}
+
+.main--info-interests-header {
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 20px;
+    top: 125px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #2B283A;
+}
+
+.main--info-interests-text {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 20px;
+    top: 150px;
+    text-align: justify;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+
+    color: #4A4E74;
+}
+
+.footer-social {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-social-twitter {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 57px;
+    top: -10px;
+}
+
+.footer-social-twitter-icon {
+    position: absolute;
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.8%;
+    bottom: 7.32%;
+
+    background: #918E9B;
+}
+
+.footer-social-facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 106px;
+    top: -10px;
+}
+
+.footer-social-facebook-icon {
+    position: absolute;
+    left: 43.27%;
+    right: 52.18%;
+    top: 89.8%;
+    bottom: 7.32%;
+
+    background: #918E9B;
+}
+
+.footer-social-instagram {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 155px;
+    top: -10px;
+}
+
+.footer-social-instagram-icon {
+    position: absolute;
+    left: 52.18%;
+    right: 43.27%;
+    top: 89.8%;
+    bottom: 7.32%;
+
+    background: #918E9B;
+}
+
+.footer-social-github {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 204px;
+    top: -10px;
+}
+
+.footer-social-github-icon {
+    position: absolute;
+    left: 61.09%;
+    right: 34.36%;
+    top: 89.8%;
+    bottom: 7.32%;
+
+    background: #918E9B;
 }
